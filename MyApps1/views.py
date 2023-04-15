@@ -18,10 +18,10 @@ def home_page_view2(request):
 
 def process_exception(self, request, exception):
 	print("Server is printing exception")
-	return HttpResponse('<h1> Currently we are facing some technical problems..(Exception) plz try after some time !!!</h1><hr /><h2>Raised Exception:{}</h2><h3>Exception Message : {}</h3>'.format(
+	return HttpResponse('<h1>***Currently we are facing some technical problems..(Exception) plz try after some time !!!</h1><hr /><h2>Raised Exception:{}</h2><h3>Exception Message : {}</h3>'.format(
 			exception.__class__.__name__, exception));
 
 
 def home_page_view3(request):
 	print('This line printed by home_page_view3 function...')
-	return HttpResponse('<h1>Hello this is from home page view3 </h1><hr />')
+	return HttpResponse('<h1>$$$Hello this is from home page view3$$$</h1><hr />')
