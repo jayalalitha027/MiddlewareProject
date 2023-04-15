@@ -1,4 +1,4 @@
-'''
+
 from django.http import HttpResponse
 #create your views here
 def welcome_view(request):
@@ -8,13 +8,13 @@ def welcome_view(request):
 from django.http import HttpResponse
 # Create your views here.
 def home_page_view(request):
-	return HttpResponse('<h1> Hello This is from home page view </h1><hr />')
-'''
+	return HttpResponse('<h1> ****Hello This is from home page view ***</h1><hr />')
+
 from django.http import HttpResponse
 # Create your views here.
 def home_page_view2(request):
 	print(10/0)
-	return HttpResponse('<h1>Hello This is from home page view</h1><hr />')
+	return HttpResponse('<h1>***Hello This is from home page view***</h1><hr />')
 
 def process_exception(self, request, exception):
 	print("Server is printing exception")
