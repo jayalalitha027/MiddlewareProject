@@ -19,8 +19,8 @@ from MyApps1 import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("welcome/",views.welcome_view),
-    path("home/",views.home_page_view),
+    #path("welcome/",views.welcome_view),
+    #path("home/",views.home_page_view),
     path("home2/", views.home_page_view2),
     path("home3/",views.home_page_view3),
 ]
